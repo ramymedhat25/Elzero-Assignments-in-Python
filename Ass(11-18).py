@@ -31,3 +31,7 @@ print(name[::2])
 print(name[-2::-2])
 
 # Task 5
+
+name = "#@#@Elzero#@#@"
+
+print(name.strip("@#"))
