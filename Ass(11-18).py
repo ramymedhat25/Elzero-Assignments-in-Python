@@ -66,3 +66,7 @@ name_two = "osaMA"
 
 print(name_one.swapcase())
 print(name_two.swapcase())
+
+# Task 9
+msg = "I Love Python And Although Love Elzero Web School"
+print(msg.count("Love"))
