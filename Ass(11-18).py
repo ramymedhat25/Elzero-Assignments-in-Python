@@ -93,3 +93,11 @@ msg = "I <3 Python And Although <3 Elzero Web School"
 # I Love Python And Although Love Elzero Web School
 print(msg.replace('<3', 'Love'))
 
+# Task 13
+name = "Ramy"
+age = "25"
+country = "Egypt"
+
+# Needed Output Using f""
+# My Name Is Osama, And My Age Is 38, And My Country Is Egypt
+print(f"My Name Is {name}, And My Age Is {age}, And My Country Is {country}")
