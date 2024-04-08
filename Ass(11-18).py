@@ -54,4 +54,15 @@ name_one = "Osama"
 print(name_one.rjust(20,"@"))
 
 name_two = "Osama_Elzero"
-print(name_two.rjust(20,"@"))
+print(name_two.rjust(20,"@")) 
+
+# Task 8
+name_one = "OSamA"
+name_two = "osaMA"
+
+# Needed Output
+# osAMa
+# OSAma
+
+print(name_one.swapcase())
+print(name_two.swapcase())
