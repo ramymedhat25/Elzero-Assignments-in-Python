@@ -48,3 +48,10 @@ num = "950"
 print(num.zfill(4))
 num = "1500"
 print(num.zfill(4))
+
+# Task 7
+name_one = "Osama"
+print(name_one.rjust(20,"@"))
+
+name_two = "Osama_Elzero"
+print(name_two.rjust(20,"@"))
