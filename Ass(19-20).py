@@ -3,3 +3,18 @@ print(int(1))
 print(float(1))
 print(complex(1))
 
+# Task 2
+complex=1+2j
+
+# Print Imaginary Part Here
+# Print Real Part Here
+
+print("Real Part IS {}".format(complex.real)) 
+
+# Task 3
+num = 10
+
+# Needed Ouput
+# 10.0000000000
+print(f"{num:.10f}")
+
