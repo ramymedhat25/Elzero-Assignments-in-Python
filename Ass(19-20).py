@@ -29,3 +29,9 @@ print(int(num))
 print(type(int(num)))
 
 
+# Task 5
+print(100 - 115) 
+print(50 * 30) 
+print(21 % 4) 
+print(110 / 11) 
+print(97 // 20) 
