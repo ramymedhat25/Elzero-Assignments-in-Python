@@ -18,3 +18,14 @@ num = 10
 # 10.0000000000
 print(f"{num:.10f}")
 
+
+
+# Task 4
+num = 159.650
+# Needed Output
+# 159
+# <class 'int'>
+print(int(num))
+print(type(int(num)))
+
+
