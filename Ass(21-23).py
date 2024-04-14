@@ -16,4 +16,12 @@ print(friends[-1])
 print(friends[friends.index('Mahmoud')])
 print(friends.pop(-1))
 
-# 
+# Task 2
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+
+# Needed Output
+# "Osama", "Sayed", "Mahmoud"
+# "Ahmed", "Ali"
+
+print (friends[0::2])
+print (friends[1::2])
