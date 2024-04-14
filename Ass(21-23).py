@@ -23,5 +23,5 @@ friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
 # "Osama", "Sayed", "Mahmoud"
 # "Ahmed", "Ali"
 
-print (friends[0::2])
+print (friends[::2])
 print (friends[1::2])
