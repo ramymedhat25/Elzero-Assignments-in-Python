@@ -67,3 +67,14 @@ print(friends[2:])
 # ["Ahmed", "Sayed"]
 print(friends[2:4])
 
+# task 7
+friends = ["Ahmed", "Sayed"]
+employees = ["Samah", "Eman"]
+school = ["Ramy", "Shady"]
+
+# Needed Output
+# ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+friends.extend(employees)
+friends.extend(school)
+print(friends)
+
