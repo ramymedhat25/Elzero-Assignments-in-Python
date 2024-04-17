@@ -88,3 +88,11 @@ print(friends)
 # ['Shady', 'Sayed', 'Samah', 'Ramy', 'Eman', 'Ahmed']
 friends.sort(reverse=True)
 print(friends)
+
+# task 9
+friends = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+# Needed Output
+# 6
+count = len(friends)
+print(count)
+
