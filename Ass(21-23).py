@@ -88,3 +88,22 @@ print(friends)
 # ['Shady', 'Sayed', 'Samah', 'Ramy', 'Eman', 'Ahmed']
 friends.sort(reverse=True)
 print(friends)
+
+# task 9
+friends = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+# Needed Output
+# 6
+count = len(friends)
+print(count)
+
+# task 10
+
+technologies = ["Html", "CSS", "JS", "Python", ["Django", "Flask", "Web"]]
+# Needed Output
+# Django
+# Web
+django = technologies[-1][0]
+web = technologies[-1][2]
+
+print(django)
+print(web)
