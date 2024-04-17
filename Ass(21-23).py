@@ -96,3 +96,14 @@ friends = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
 count = len(friends)
 print(count)
 
+# task 10
+
+technologies = ["Html", "CSS", "JS", "Python", ["Django", "Flask", "Web"]]
+# Needed Output
+# Django
+# Web
+django = technologies[-1][0]
+web = technologies[-1][2]
+
+print(django)
+print(web)
