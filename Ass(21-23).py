@@ -57,3 +57,13 @@ print(friends)
 # ["Nasser", "Osama", "Ahmed", "Sayed", "Salem"]
 friends.append("Salem")
 print(friends)
+
+# task 6 
+friends = ["Nasser", "Osama", "Ahmed", "Sayed", "Salem"]
+
+# Needed Output
+# ["Ahmed", "Sayed", "Salem"]
+print(friends[2:])
+# ["Ahmed", "Sayed"]
+print(friends[2:4])
+
